@@ -1,0 +1,16 @@
+{
+    "name": "ArkKnights AutoScript",
+    "main": "launch.js",
+    "ignore": [
+        ".git",
+        "doc",
+        "tool/images",
+        ".gitignore",
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md"
+    ],
+    "packageName": "com.arkknights.autoscript",
+    "versionName": "2.2.0",
+    "versionCode": 2
+}
