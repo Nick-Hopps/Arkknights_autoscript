@@ -254,6 +254,8 @@ function runCount(imgs) {
   if (imgs.length) {
     if (!rewards["龙门币"]) rewards["龙门币"] = 0;
     rewards["龙门币"] += +_getNum(funcs.baiduOCR(imgs.shift()));
+
+    if (configs.target_material == "龙门币") return;
   }
 
   if (imgs.length) {

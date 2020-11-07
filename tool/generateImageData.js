@@ -24,8 +24,8 @@ function transImagesToJSONfile(path, format, dstPath, dstName) {
     results[img_name] = images.toBase64(img_entity, format);
   });
 
-  log(results);
-  exit();
+  /* log(results);
+  exit(); */
 
   try {
     files.write(files.join(dstPath, dstName), JSON.stringify(results));

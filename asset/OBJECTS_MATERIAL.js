@@ -5,9 +5,9 @@ module.exports = {
   作战记录: { top: "supplies", episode: "tactical_drill", operation: "operation_ls_5", update: false, category: "others", count: false, plural: false},
   技巧概要: { top: "supplies", episode: "aerial_threat", operation: "operation_ca_5", update: false, category: "others", count: false, plural: false },
   采购凭证: { top: "supplies", episode: "tough_siege", operation: "operation_ap_5", update: false, category: "others", count: false, plural: false },
-  龙门币: { top: "supplies", episode: "cargo_escort", operation: "operation_ce_5", update: false, category: "others", count: false, plural: false },
+  龙门币: { top: "supplies", episode: "cargo_escort", operation: "operation_ce_5", update: false, category: "others", count: true, plural: false },
   // 剿灭模式
-  合成玉: { top: "annihilation", operation: "lungmen_district", update: false, category: "others", count: false, plural: false },
+  合成玉: { top: "annihilation", episode: "lungmen", operation: "lungmen_district", update: false, category: "others", count: false, plural: false },
   // 芯片搜索
   重装芯片: { top: "chips", episode: "solid_defense", operation: "operation_pr_a_1", update: false, category: "chips", count: true, plural: false },
   医疗芯片: { top: "chips", episode: "solid_defense", operation: "operation_pr_a_1", update: false, category: "chips", count: true, plural: false },

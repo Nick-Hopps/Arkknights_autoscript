@@ -23,6 +23,7 @@ module.exports = {
   episode_5: readImageBase64(raw.episode_5, scale_ratio),
   episode_6: readImageBase64(raw.episode_6, scale_ratio),
   episode_7: readImageBase64(raw.episode_7, scale_ratio),
+  episode_8: readImageBase64(raw.episode_8, scale_ratio),
   // 物资筹备
   tactical_drill: readImageBase64(raw.tactical_drill, scale_ratio),
   aerial_threat: readImageBase64(raw.aerial_threat, scale_ratio),
@@ -34,6 +35,7 @@ module.exports = {
   unstoppable_charge: readImageBase64(raw.unstoppable_charge, scale_ratio),
   fearless_protection: readImageBase64(raw.fearless_protection, scale_ratio),
   // 剿灭模式
+  lungmen: readImageBase64(raw.lungmen, scale_ratio),
   lungmen_district: readImageBase64(raw.lungmen_district, scale_ratio),
   // 地图关卡
   operation_1_7: readImageBase64(raw.operation_1_7, scale_ratio),
