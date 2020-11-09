@@ -22,8 +22,8 @@ module.exports = {
   },
   // 芯片组
   chip_packs: {
-    //"重装芯片组": readImageBase64(raw["重装芯片组"], scale_ratio),
-    //"医疗芯片组": readImageBase64(raw["医疗芯片组"], scale_ratio),
+    "重装芯片组": readImageBase64(raw["重装芯片组"], scale_ratio),
+    "医疗芯片组": readImageBase64(raw["医疗芯片组"], scale_ratio),
     "狙击芯片组": readImageBase64(raw["狙击芯片组"], scale_ratio),
     "术师芯片组": readImageBase64(raw["术师芯片组"], scale_ratio),
     //"先锋芯片组": readImageBase64(raw["先锋芯片组"], scale_ratio),
