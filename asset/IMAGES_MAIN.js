@@ -55,7 +55,7 @@ module.exports = {
   operation_ap_5: readImageBase64(raw.operation_ap_5, scale_ratio),
   operation_ce_5: readImageBase64(raw.operation_ce_5, scale_ratio),
   operation_pr_a_1: readImageBase64(raw.operation_pr_a_1, scale_ratio),
-  operation_pr_a_1: readImageBase64(raw.operation_pr_a_1, scale_ratio),
+  operation_pr_a_2: readImageBase64(raw.operation_pr_a_2, scale_ratio),
   operation_pr_b_1: readImageBase64(raw.operation_pr_b_1, scale_ratio),
   operation_pr_b_2: readImageBase64(raw.operation_pr_b_2, scale_ratio),
   operation_pr_c_1: readImageBase64(raw.operation_pr_c_1, scale_ratio),
